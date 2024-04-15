@@ -51,6 +51,11 @@
             <scope>system</scope>
             <systemPath>${basedir}/lib/gson-2.10.1.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-lambda-java-events</artifactId>
+            <version>3.11.4</version>
+        </dependency>
     </dependencies>
 
     <build>
